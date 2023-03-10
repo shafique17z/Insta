@@ -1,12 +1,12 @@
 import { View, Text, StyleSheet, ScrollView } from "react-native";
 import React from "react";
 
-// import Header from "../components/homeComps/Header";
-// import Stories from "../components/homeComps/Stories";
-// import Post from "../components/homeComps/Post";
-// import { posts } from "../data/posts";
-// import BottomTabs from "../components/homeComps/BottomTabs";
-// import { bottomTabIcons } from "../data/bottomTabIcons";
+import Header from "../components/homeComps/Header";
+import Stories from "../components/homeComps/Stories";
+import { posts } from "../data/posts";
+import Post from "../components/homeComps/Post";
+import { bottomTabIcons } from "../data/bottomTabIcons";
+import BottomTabs from "../components/homeComps/BottomTabs.js";
 
 const HomeScreen = () => {
   return (
