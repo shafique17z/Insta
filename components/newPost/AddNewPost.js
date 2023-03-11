@@ -1,11 +1,12 @@
 import React from "react";
 import { View, Text, StyleSheet, Image, TouchableOpacity } from "react-native";
-// import { Divider } from "react-native-elements/dist/divider/Divider";
+import { Divider } from "react-native-elements/dist/divider/Divider";
+import FormikPostUploader from "./FormikPostUploader";
 
 const AddNewPost = () => (
   <View style={styles.container}>
     <Header />
-    {/* <Formik */}
+    <FormikPostUploader />
   </View>
 );
 
@@ -35,7 +36,7 @@ const Header = () => (
         }}
       />
     </View>
-    {/* <Divider width={1} color="#f7f7f7" orientation="horizontal" /> */}
+    <Divider width={1} orientation="horizontal" />
   </View>
 );
 
