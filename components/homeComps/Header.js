@@ -40,7 +40,7 @@ const Header = () => {
           </TouchableOpacity>
         </View>
       </View>
-      {/* <Divider width={1} orientation="vertical" /> */}
+      {/* <Divider width={0.5} orientation="vertical" /> */}
     </View>
   );
 };

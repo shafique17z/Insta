@@ -36,7 +36,7 @@ const Header = () => (
         }}
       />
     </View>
-    <Divider width={1} orientation="horizontal" />
+    <Divider width={0.5} orientation="horizontal" />
   </View>
 );
 
